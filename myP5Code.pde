@@ -22,16 +22,17 @@ void draw(){
 
 var eyeSize=20;
 
-
   fill(0, 0, 0);
   ellipse(170, 150, eyeSize, eyeSize);  // left eye
   ellipse(230, 150, eyeSize, eyeSize);  // right eye
 
   line(150, 200, 250, 200);   // mouth
+  
+  var eyeSize=25;
 
   noFill();
-  rect(185, 200, 15, 10); // left tooth
-  rect(200, 200, 15, 10); // right tooth
+  rect(185, 200, 15, eyeSize); // left tooth
+  rect(200, 200, 15, eyeSize); // right tooth
   
 
 }
