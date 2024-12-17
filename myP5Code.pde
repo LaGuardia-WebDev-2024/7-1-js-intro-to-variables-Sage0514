@@ -20,6 +20,9 @@ void draw(){
 
   ellipse(200, 170, 150, 150);    // face
 
+var eyeSize=20;
+
+
   fill(0, 0, 0);
   ellipse(170, 150, eyeSize, eyeSize);  // left eye
   ellipse(230, 150, eyeSize, eyeSize);  // right eye
